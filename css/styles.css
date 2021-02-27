@@ -1,0 +1,110 @@
+* {
+	color: black;
+}
+
+header{
+	/*height: 70px;*/
+}
+
+#header-nav {
+	/*height: 70px;*/
+	background-color: #9a9b9a;
+	border: 0;
+	border-radius: 0;
+	font-weight: bold;
+	font-size: 15px;
+	padding-bottom: 8px;
+	padding-top: 0px;
+}
+
+h1 {
+	padding-left: 20px;
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+#button {
+	padding: 17.5px;
+}
+
+#header {
+	font-size: 30px;
+}
+
+p {
+	padding: 0px 15px 10px 15px;
+	background-color: #9a9b9a;
+}
+
+.top-top {
+	margin-top: 20px;
+}
+
+#no-hover {
+	pointer-events: none;
+}
+
+.size {
+	font-size: 2em;
+	font-weight: bold;
+	background-color: #9a9b9a;
+}
+
+.size-h1 {
+	font-size: 3em;
+	color: #000;
+	font-weight: bold;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #000;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+#Chicken {
+	background-color: #9a9b9a;
+	text-align: center;
+}
+
+#Beef {
+	background-color: #9a9b9a;
+	text-align: center;
+}
+
+#Sushi {
+	background-color: #9a9b9a;
+	text-align: center;
+}
+
+/**********Small devices only **********/
+@media(max-width: 767px) {
+ 	#collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+	}
+
+	#header {
+		position: absolute;
+	}
+
+	.color-white {
+		background-color: white;
+		border: 1px solid black;
+	}
+}
